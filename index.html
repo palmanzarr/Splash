@@ -3,23 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Centered Logo</title>
+    <title>PAlmanzar Architecture</title>
     <style>
         body {
             margin: 0;
             height: 100vh;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
         }
         img {
             max-width: 100%;
             height: auto;
         }
+        .contact-info {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .contact-info img {
+            vertical-align: middle;
+            margin-right: 10px;
+        }
     </style>
 </head>
 <body>
-    <img src="./palmanzar-logo.jpg" alt="Logo">
+    <img src="palmanzar-logo.jpg" alt="Logo">
+    <div class="contact-info">
+        <p>
+	    <a aria-label="Mail me" href="mailto:palmanzarr@gmail.com"> <img alt="Mail me" src="./email.png" /> 
+        </p>
+    </div>
 </body>
 </html>
